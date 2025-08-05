@@ -1,47 +1,40 @@
 # Online Market – Java OOP E-Commerce System
 
-Developed as part of Afeka College coursework in Object-Oriented Programming (2024).
+Java-based e-commerce simulation project developed as part of the Object-Oriented Programming course at Afeka College (2024).
 
 ## Overview
 
-This is a Java-based e-commerce simulation project supporting both buyers and sellers. The system implements:
-- User registration & login
-- Cart and order management
-- Product listings by sellers
-- Product filtering, string processing
-- Reusable cart history and iterator demonstrations
+This CLI-based system allows buyers and sellers to:
+- Register and log in
+- Add and manage products
+- Browse by category
+- Build and restore carts
+- Place and manage orders
 
-## Key Design Patterns Used
+Includes string processing tasks and category filters, simulating key e-commerce behaviors.
 
-- **Factory** – For Buyer/Seller/Product/Cart creation
-- **Singleton & Facade** – For system control via MarketFacade
-- **Observer** – Notifications on iterator completion
-- **Command** – Menu and user command execution
-- **Memento** – Cart state save/restore
-- **Decorator** – Enhanced list iteration behavior
+## Design Patterns Implemented
+
+- **Factory** – For creating system objects like `Buyer`, `Product`, etc.
+- **Singleton / Facade** – Centralized system control
+- **Memento** – Cart state history
+- **Command** – Menu and actions
+- **Decorator** – Iterator enhancement
+- **Observer** – Notify when iteration ends
 
 ## Technologies
 
-- Java SE
-- Collections (ArrayList, LinkedHashMap, TreeSet)
-- Custom Exceptions
-- OOP Principles (Encapsulation, Inheritance, Polymorphism)
-
-## Features
-
-- Cart duplication & restore (Memento)
-- Sorting product names (length, frequency)
-- Case-insensitive string processing
-- Menu-based CLI with iterator options
+- Java SE (OOP)
+- Collections: `ArrayList`, `TreeSet`, `LinkedHashMap`
+- Custom exceptions, enums, CLI menus
 
 ## How to Run
 
-1. Open the `Main` class.
-2. Run via any Java IDE (e.g., IntelliJ, Eclipse).
-3. Use menu for actions like user/product creation, order management, and design pattern demos.
+1. Clone the repo
+2. Open `Main.java` in your IDE
+3. Run → Use interactive menu to test functionality
 
 ## Author
 
 Yahli Mazri  
 [LinkedIn](https://www.linkedin.com/in/yahli-mazri-421b65256)
-
